@@ -11,7 +11,6 @@ export default function Weather() {
 
     const [weather, setWeather] = useState([]);
 
-    console.log("process.env.REACT_APP_API_KEY", process.env.REACT_APP_API_KEY);
     const API_KEY = process.env.REACT_APP_API_KEY;
 
     // FETCH THE WEATHER DATA
