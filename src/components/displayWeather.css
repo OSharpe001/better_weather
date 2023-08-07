@@ -1,0 +1,134 @@
+.displayweather {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  .displayweather .maincard {
+    width: 500px;
+    margin-top: 20px;
+    align-self: center;
+    padding: 50px;
+    border-radius: 20px;
+    position: relative;
+    background: #fff;
+    border: 1px solid black;
+  }
+
+  .displayweather .maincard .cardtitle {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 1.5rem;
+  }
+
+  .displayweather .maincard .cardsubtitle {
+    position: absolute;
+    left: 10px;
+    color: grey;
+    margin-top: -8px;
+  }
+
+  .displayweather h1 {
+    font-size: 5rem;
+    margin: -10px;
+    margin-left: -150px;
+  }
+
+  .displayweather .weather-icon {
+    width: 100px;
+    position: relative;
+    top: -20px;
+  }
+
+  .displayweather .weather-main {
+    position: absolute;
+    top: 120px;
+    left: 310px;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+
+  .displayweather .weather-description {
+    position: absolute;
+    left: 10px;
+    font-size: 1.4rem;
+  }
+
+  .displayweather .weatherdetails {
+    justify-self: center;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    width: max-content;
+  }
+
+  .displayweather .weatherdetails .section1 {
+    justify-self: right;
+    width: 300px;
+  }
+
+  .displayweather .weatherdetails .section2 {
+    justify-self: left;
+    width: 300px;
+  }
+
+  h4 {
+    text-align: left;
+    margin-right: 30px;
+    font-size: 1.2rem;
+  }
+
+  td {
+    border-bottom: 2px dashed grey;
+  }
+
+  .displayweather .weatherdetails span {
+    font-size: 1.2rem;
+  }
+
+  .degree-display {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 1vh auto;
+  }
+
+  .degree-display h1 {
+    flex: 66%;
+    text-align: center;
+  }
+
+  .degree-display button, .change-visibility {
+    text-align: right;
+    margin-left: 10px;
+    padding: 8px;
+    height: max-content;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 20px;
+    border: 2px solid black;
+    background: rgb(2, 57, 88, 0.8);
+    cursor: pointer;
+    color: whitesmoke;
+    align-self: center;
+    width: min-content;
+  }
+
+  .degree-display button:hover {
+    background: transparent;
+    color: black;
+  }
+
+  .degree-display button:focus {
+    outline: none;
+  }
+
+  .visibility {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 120px;
+  }
